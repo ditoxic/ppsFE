@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  width: calc(25% - 22px);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 40px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.jenis-bansos-dropdown {
+  margin: 5px;
+  padding: 10px;
+  width: calc(25% - 22px);
+}
+
+header {
+  padding: 30px;
+  background-color: #011627;
+  height: 15px;
+  color: #ddd;
+  font-size: x-large;
+  /* font-style: normal; */
+}
+
+.sidenav {
+  width: 240px;
+  background-color: #011627;
+  position: absolute;
+  height: 95vh;
+  padding: 0 30px;
+  transition: all 1s;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/* ul li a{
+  color: #f4f4f4;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+ul li a :hover,
+ul li a.active {
+  background: #384255;
+} */
